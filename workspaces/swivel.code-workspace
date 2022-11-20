@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"autoHeader": {
+			"format": {
+				"startWith": "\"\"\"",
+				"middleWith": "*",
+				"endWith": "\"\"\"",
+				"headerPrefix": "@\b"
+			},
+			"header": {
+				"Author": "Peter Bowman",
+				"Create Time": {
+					"type": "createTime",
+					"format": "YYYY-MM-DD HH:mm:ss"
+				},
+				"Modified by": {
+					"type": "modifier",
+					"value": "Peter Bowman"
+				},
+				"Modified time": {
+					"type": "modifyTime",
+					"format": "YYYY-MM-DD HH:mm:ss"
+				},
+				"Description": ""
+			}
+		},
+		"todo-tree.filtering.excludeGlobs": [
+			"**/node_modules",
+			"images"
+		],
+		"files.exclude": {
+			".vscode": true,
+			"images": true,
+			"workspaces": true
+		}
+	}
+}
